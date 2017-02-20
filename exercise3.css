@@ -1,10 +1,17 @@
+body {
+	font-family: sans-serif;
+
+}
+
+
 header {
 	width: 100%;
 	margin-bottom: 10px;
 }
 
 header img {
-	height: 50px;
+	width: 50px;
+	max-width: 175px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -25,10 +32,14 @@ nav>ul>li {
 
 .feature {
 	width: 100%;
-	height: 100px;
+	height: 300px;
 	border: 1px solid;
 	margin-top:10px;
 	padding: 10px 10px 10px 10px;
+	background-color:lightgrey;
+	background-image: url(http://www.huddlebuy.co.uk/images/Apple_Product_Banner_660.png), url(https://cdn01.vulcanpost.com/wp-uploads/2015/10/Apple_Hero_CHina_Store.jpg); 
+	background-repeat: no-repeat, no-repeat;
+	background-position: center, center;
 }
 
 section {
@@ -55,7 +66,10 @@ section> div {
 .column1 {
 	float: left;
 	/*background-color: blue;*/
-	
+}
+
+.column1 img {
+	height: 200px;
 }
 .column2 {
 	float: left;
